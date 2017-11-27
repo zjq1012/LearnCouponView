@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="CouponView">
+    <attr name="SemiCircleRadius"
+        format="dimension"/>
+    <attr name="SemiCircleGap"
+        format="dimension"/>
+    <attr name="SemiCircleColor"
+        format="color"/>
+    <attr name="drawSemiCircleLeft"
+        format="boolean"/>
+    <attr name="drawSemiCircleRight"
+        format="boolean"/>
+    <attr name="drawSemiCircleTop"
+        format="boolean"/>
+    <attr name="drawSemiCircleBottom"
+        format="boolean"/>
+    <attr name="dottedLineWidth"
+        format="dimension"/>
+    <attr name="dottedLineHeight"
+        format="dimension"/>
+    <attr name="dottedLineGap"
+        format="dimension"/>
+    <attr name="dottedLineMargin"
+        format="dimension"/>
+    <attr name="dottedLineColor"
+        format="color"/>
+    <attr name="drawDottedLineLeft"
+        format="boolean"/>
+    <attr name="drawDottedLineRight"
+        format="boolean"/>
+    <attr name="drawDottedLineTop"
+        format="boolean"/>
+    <attr name="drawDottedLineBottom"
+        format="boolean"/>
+  </declare-styleable>
+</resources>

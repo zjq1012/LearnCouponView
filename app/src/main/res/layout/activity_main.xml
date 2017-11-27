@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+  <com.psi.learncouponview.CouponView
+      android:layout_width="match_parent"
+      android:layout_height="100dp"
+      android:background="@color/colorAccent"
+      app:drawSemiCircleTop="true"
+      app:drawSemiCircleBottom="true"
+      app:drawSemiCircleLeft="true"
+      app:drawSemiCircleRight="true"
+      app:SemiCircleGap="6dp"
+      app:SemiCircleRadius="4dp"
+      android:layout_margin="8dp"
+      ></com.psi.learncouponview.CouponView>
+
+
+  <com.psi.learncouponview.CouponView
+      android:layout_width="match_parent"
+      android:layout_height="100dp"
+      android:background="@color/colorPrimary"
+      android:layout_marginTop="20dp"
+      app:drawDottedLineLeft="true"
+      app:drawDottedLineRight="true"
+      app:drawDottedLineTop="true"
+      app:drawDottedLineBottom="true"
+      app:dottedLineWidth="10dp"
+      app:dottedLineHeight="2dp"
+      app:dottedLineGap="6dp"
+      app:dottedLineMargin="12dp"
+      android:layout_margin="8dp"
+      ></com.psi.learncouponview.CouponView>
+
+
+  <com.psi.learncouponview.CouponView
+      android:layout_width="match_parent"
+      android:layout_height="100dp"
+      android:background="@android:color/holo_blue_bright"
+      android:layout_marginTop="20dp"
+      app:drawSemiCircleTop="true"
+      app:SemiCircleGap="6dp"
+      app:SemiCircleRadius="4dp"
+      app:drawDottedLineLeft="true"
+      app:drawDottedLineRight="true"
+      app:drawDottedLineBottom="true"
+      app:dottedLineWidth="10dp"
+      app:dottedLineHeight="2dp"
+      app:dottedLineGap="6dp"
+      app:dottedLineMargin="12dp"
+      android:layout_margin="8dp"
+      ></com.psi.learncouponview.CouponView>
+</LinearLayout>
